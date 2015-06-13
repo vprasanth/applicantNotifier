@@ -1,0 +1,23 @@
+{
+  "name": "signupserver",
+  "version": "1.0.0",
+  "authors": [
+    "Prasanth Vaaheeswaran <pvaahee@ca.ibm.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skeleton": "https://github.com/dhg/Skeleton.git#~2.0.4",
+    "animate.css": "git@github.com:daneden/animate.css.git#~3.3.0",
+    "jquery": "~2.1.4"
+  }
+}

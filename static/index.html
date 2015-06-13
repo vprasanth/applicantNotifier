@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Signup! IBM :)</title>
+	<link rel="stylesheet" type="text/css" href="skeleton/css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="animate.css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="randomColor">
+	<main class="container animated bounceIn">
+		<section class="row">
+			<header class="tweleve">
+				<h2>Are you a <span class="highlight">front-end developer</span>? <span>IBM Design</span> is looking for you! <span class="highlight">Apply here!<span></h2>
+			</header>
+		</section>
+		<form action="api/save" enctype="application/x-www-form-urlencoded" method="post" novalidate accept-charset="utf-8">
+			<section class="row">
+				<header class="tweleve">
+					<h4>Personal info</h4>
+				</header>
+				<div class="row">
+					<div class="six columns">
+						<label for="fullName">full name</label>
+						<input class="u-full-width" type="text" required placeholder="Sam Samson" id="fullName" name="fullName">
+					</div>
+					<div class="six columns">
+						<label for="phone">phone#</label>
+						<input class="u-full-width" required type="text" placeholder="4168889898" id="phone" name="phone">
+					</div>
+				</div>
+				<div class="row">
+					<div class="tweleve">
+						<label for="email1">email</label>
+						<input class="u-full-width" required type="email" placeholder="samus@email.com" id="email1" name="email1">
+					</div>
+					<div class="tweleve">
+						<label for="email2">re-enter email</label>
+						<input class="u-full-width" required type="email" placeholder="samus@email.com" id="email2" name="email2">
+					</div>
+				</div>
+			</section>
+			<!-- <section class="row">
+				<header class="tweleve">
+					<h4>Address</h4>
+				</header>
+				<div class="row">
+					<div class="tweleve">
+						<label for="address">address</label>
+						<input class="u-full-width" type="text" required placeholder="123 fake st." id="address" name="address">
+					</div>
+				</div>
+				<div class="row">
+					<div class="three columns">
+						<label for="city">city</label>
+						<input class="u-full-width" type="text" required placeholder="toronto" id="city" name="city">
+					</div>
+					<div class="three columns">
+						<label for="province">province</label>
+						<input class="u-full-width" type="text" required placeholder="ontario" id="province" name="province">
+					</div>
+					<div class="three columns">
+						<label for="country">country</label>
+						<input class="u-full-width" type="text" required placeholder="greatest place ever" id="country" name="country">
+					</div>
+					<div class="three columns">
+						<label for="postalCode">postal code</label>
+						<input class="u-full-width" type="text" required placeholder="m1e3w2" id="postalCode" name="postalCode">
+					</div>
+				</div>
+			</section> -->
+			<section class="row">
+				<header class="tweleve">
+					<h4><em>Skillz</em></h4>
+					<p>Rate yourself. 0 being <em>"I heard of it"</em>, 10 being <em>"I know the ins and outs of it"</em>.</p>
+				</header>
+				<div class="row">
+					<div class="three columns">
+						<label for="design">design</label>
+						<input class="u-full-width" type="number" min=0 max=10 required placeholder="10" id="design" name="design">
+					</div>
+					<div class="three columns">
+						<label for="html">html</label>
+						<input class="u-full-width" type="number" min=0 max=10 required placeholder="10" id="html" name="html">
+					</div>
+					<div class="three columns">
+						<label for="css">css</label>
+						<input class="u-full-width" type="number" min=0 max=10 required placeholder="10" id="css" name="css">
+					</div>
+					<div class="three columns">
+						<label for="javascript">javascript</label>
+						<input class="u-full-width" type="number" min=0 max=10 required placeholder="10" id="javascript" name="javascript">
+					</div>
+				</div>
+				<div class="row">
+					<div class="tweleve">
+						<label for="additional">additional skillz</label>
+						<input class="u-full-width" type="text" placeholder="responsive design, sass, node, gulp" id="additional" name="additional">
+					</div>
+				</div>
+				<div class="row">
+					<div class="six columns">
+						<label for="portfolio">portfolio/personal website</label>
+						<input class="u-full-width" type="text" placeholder="https://bajdiow.com" id="portfolio" name="portfolio">
+					</div>
+					<div class="six columns">
+						<label for="github">github</label>
+						<input class="u-full-width" type="text" placeholder="https://github.com/xyzywe" id="github" name="github">
+					</div>
+				</div>
+				<div class="row">
+					<div class="six columns">
+						<label for="education">highest level of education completed</label>
+						<select name="education" class="u-full-width" id="exampleRecipientInput">
+							<option value="university">university</option>
+							<option value="college">college</option>
+							<option value="highschool">highschool</option>
+							<option value="other">other</option>
+						</select>
+					</div>
+					<div class="six columns">
+						<label for="education">can work in Canada</label>
+						<select name="canWorkHere" class="u-full-width" id="exampleRecipientInput">
+							<option value="yes" selected>yes</option>
+							<option value="notSure">not sure</option>
+						</select>
+					</div>
+				</div>
+			</section>
+			<section class="row submit">
+				<div class="tweleve">
+					<input class="u-full-width shake" type="submit" value="Apply">
+				</div>
+			</section>
+		</form>
+	</main>
+	<script src="/jquery/dist/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/colours.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

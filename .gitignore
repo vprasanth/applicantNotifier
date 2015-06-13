@@ -1,0 +1,13 @@
+## Directory-based project format  (IntelliJ i.e. WebStorm) :
+.idea/
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+# http://addyosmani.com/blog/checking-in-front-end-dependencies/
+node_modules/
+bower_components/
+
+# Coverage directory used by tools like gulp/grunt
+coverage/
+config/
+.DS_Store

@@ -1,0 +1,66 @@
+body {
+	background-color: #64D3AC;
+	/*background-image: url('../imgs/photo2.jpg');
+	background-size: cover;*/
+}
+
+section {
+	background-color: #fff;
+	/*background-color: rgba(255,255,255,.9);*/
+	margin: 15px;
+	padding: 20px;
+	box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+}
+
+.submit {
+	padding: 0;
+	background-color: inherit;
+  	-webkit-box-shadow: 0 0 0;
+  	box-shadow: 0 0 0;
+}
+
+label {
+	color: #ababab;/*default*/
+	transition: color 3s ease; /* future-proof */
+	-webkit-transition: color 3s ease;
+	-moz-transition: color 3s ease;
+	-o-transition: color 3s ease;
+	-ms-transition: color 3s ease;/* IE10+ only */
+}
+
+.one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+input[type="submit"] {
+	border: 0;
+	color: #000;
+	background-color: #fff;
+	border-radius: 0;
+}
+
+input[type="submit"]:hover{
+	/*outline: 1px solid rgba(255, 255, 255, 0.6);*/
+	/*box-shadow: 0 8px 6px -6px black;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;*/
+}
+
+.randomColor {
+	background-color: #ababab;/*default*/
+	transition: background-color 3s ease; /* future-proof */
+	-webkit-transition: background-color 3s ease;
+	-moz-transition: background-color 3s ease;
+	-o-transition: background-color 3s ease;
+	-ms-transition: background-color 3s ease;/* IE10+ only */
+}
+
+.highlight {
+	background-color: #C8E937;
+	color: #000;
+}
+

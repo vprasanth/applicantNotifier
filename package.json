@@ -1,0 +1,19 @@
+{
+  "name": "signupserver",
+  "version": "1.0.0",
+  "description": "sign-up server to post candidates to slack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Prasanth Vaaheeswaran",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "cloudant": "^1.0.0",
+    "express": "^4.12.4",
+    "nconf": "^0.7.1",
+    "request": "^2.57.0"
+  }
+}
