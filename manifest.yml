@@ -1,0 +1,9 @@
+applications:
+- name: applicantNotifier
+  disk_quota: 512M
+  host: applicantnotifier
+  command: node server.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
